@@ -7,9 +7,9 @@ const Header = () => {
         <div className='header'>
             <img src={logo} alt="" />
             <li>
-                <a href="">Home</a>
-                <a href="">API</a>
-                <a href="">Forum</a>
+                <a href="/home">Home</a>
+                <a href="/api">API</a>
+                <a href="/forum">Forum</a>
             </li>
             <input className='search-field' type="text" />
         </div>
